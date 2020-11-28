@@ -108,3 +108,22 @@ hr{
   .hero .hero-heading .hero-inverted{
       color: var(--secondary-color);
   }
+ 
+.section {
+   padding:2rem
+}
+.section h2{
+    text-align: center;
+}
+.footer{
+    background-color : var( --secondary-color);
+    padding : 1rem 1rem;
+    text-align :center; 
+    color:white;
+}
+.footer-container{
+    text-align :center; 
+}
+.footer .link{
+    color:white;
+}
