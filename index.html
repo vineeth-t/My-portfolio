@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Own Library</title>
+    <link href='style.css' rel='stylesheet'/>
+    
+
+    <!-- style tag styling -->
+    <!-- <style>
+        body{
+            color:rgb(7, 7, 7);
+        }
+    </style> -->
 </head>
 <body>
     <h1>I am Full Stack Developer</h1>
@@ -11,38 +20,38 @@
     <small>pvr</small>
     <hr>
    <h2>containers</h2>
-   <div>Fluid container</div>
-   <div>center container</div>
+   <div class="container-fluid">Fluid container</div>
+   <div class="container-center">center container</div>
       
     <hr>
-   <a href=''>Primary link</a>
-   <a href=''>Secondary link</a>
+   <a class="link primary-link"href='/'>Primary link</a>
+   <a class='link secondary-link'href='/'>Secondary link</a>
    <hr>
    <h2>unordered lists</h2>
-   <ul>
-       <li>food</li>
-       <li>water</li>
-       <li>fire</li>         
+   <ul class="list-non-bullet">
+       <li class="list-item-inline">food</li>
+       <li  class="list-item-inline">water</li>
+       <li class="list-item-inline">fire</li>         
    </ul>
    <h2>ordered lists</h2>
-   <ol>
-       <li>food</li>
-       <li>water</li>
-       <li>fire</li>         
+   <ol reversed >
+       <li >career</li>
+       <li >love</li>
+       <li >life</li>         
    </ol>
      <hr>
      <h2>Nav Tag</h2>
-     <nav>
-         <div>I am Dev</div>
-         <ul>
-             <li>
-                 <a href=''>Home</a>
+     <nav class='navigation container'>
+         <div class='nav-brand'>I am Dev</div>
+         <ul class='list-non-bullet nav-pills'>
+             <li class="list-item-inline">
+                 <a class="link link-active" href='/'>Home</a>
              </li>
-             <li>
-                <a href=''>Projects</a>
+             <li class="list-item-inline">
+                <a  class="link " href='/'>Projects</a>
             </li>
-            <li>
-                <a href=''>Blog</a>
+            <li class="list-item-inline">
+                <a  class="link " href='/'>Blog</a>
             </li>
 
          </ul>
@@ -50,8 +59,9 @@
 
     <hr>
     <h2>Header</h2> 
-    <header>
-        <img src='images/Main.svg' />
+    <header class='hero'>
+        <img class='hero-img' src='images/Main.svg' />
+        <h1 class='hero-heading'>Pavan Vineeth Reddy <span class='hero-inverted'>The web developer</span></h1>
     </header>
     <hr>
     <h2>Section</h2>
